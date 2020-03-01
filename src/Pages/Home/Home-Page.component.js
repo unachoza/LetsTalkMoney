@@ -8,7 +8,7 @@ const HomePage = () => {
    <div className="home-page">
     <img src={LOGO} class="logo" alt="company logo" />
     <div className="company-title">Let's Talk Money</div>
-    <Button >Click</Button>
+    <Button>Click</Button>
    
     </div>
   );
