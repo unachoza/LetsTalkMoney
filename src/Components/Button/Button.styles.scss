@@ -4,33 +4,35 @@
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.5rem 4rem;
-    display: block;
+    padding: 1rem 3rem;
+    display: inline;
+font-weight: 900;
+border: black 1px solid;
     width: 150px;
-    border-radius: 10rem;
+    border-radius: .5rem;
     transition: all 0.2s;
     position: relative;
     margin: auto;
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
   }
 
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(#407745, 0.3);
+    box-shadow: 0 1rem 2rem rgba(#79E6BA, 0.3);
   }
 
   &:active,
   &:focus {
     outline: none;
     transform: translateY(-1px);
-    box-shadow: 0 0.5rem 1rem rgba(#407745, 0.3);
+    box-shadow: 0 0.5rem 1rem rgba(#79E6BA, 0.3);
   }
 
   &::after {
-    background-color: #407745;
+    background-color: #79E6BA;
     content: '';
-    // display: inline-block;
+    display: inline-block;
     height: 100%;
     width: 100%;
     border-radius: 0.25rem;
