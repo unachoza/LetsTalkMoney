@@ -1,11 +1,10 @@
 import React from 'react'
-import ProgressBar from '../../Components/Progress-Bar/Progress-Bar.component'
+import "./Dashboard.styles.css"
 
 const Dashboard = () => {
  return (
   <div className="dashboard">
   dashboard
- <ProgressBar/>
   </div>
 )
 }
