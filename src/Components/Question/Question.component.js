@@ -1,6 +1,4 @@
 import React from 'react';
-import Button from '../../Components/Button/Button.component';
-import { Link } from 'react-router-dom';
 import './Question.styles.css';
 
 const Question = ({ question }) => {

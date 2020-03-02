@@ -2,7 +2,6 @@ import React from 'react';
 import Button from '../../Components/Button/Button.component';
 import ProgressBar from '../../Components/Progress-Bar/Progress-Bar.component';
 import Question from '../../Components/Question/Question.component'
-import { Link } from 'react-router-dom';
 import './Survey.styles.css';
 
 const SurveyQuestionsArray = ["Tell us a bit about yourself.", "What is your email?", "First Name", "Last Name"]
